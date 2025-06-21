@@ -1,0 +1,36 @@
+[
+  {
+    "file": "report_1.pdf",
+    "date": null,
+    "biomarkers": {
+      "Total Cholesterol": 136.0,
+      "LDL": 35.0,
+      "HDL": 100.0,
+      "Triglycerides": 177.0,
+      "Creatinine": 1.18,
+      "Vitamin D": 18.73,
+      "Vitamin B12": 259.0,
+      "HbA1c": 5.8
+    }
+  },
+  {
+    "file": "report_2.pdf",
+    "date": null,
+    "biomarkers": {
+      "Triglycerides": 178.0
+    }
+  },
+  {
+    "file": "report_3.pdf",
+    "date": null,
+    "biomarkers": {}
+  },
+  {
+    "file": "report_4.pdf",
+    "date": null,
+    "biomarkers": {
+      "Triglycerides": 174.0,
+      "HbA1c": 5.8
+    }
+  }
+]

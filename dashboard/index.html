@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patient Biomarker Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <header>
+  <div class="header-left">
+    <h1>Biomarker Dashboard</h1>
+    <p>Patient: B G MANJUNATHA SWAMY | Age: 56 | Gender: Male</p>
+  </div>
+  <div class="header-right">
+    <label for="dateRange">Select Date Range:</label>
+    <select id="dateRange">
+      <option value="all">All Reports</option>
+      <option value="recent">Last 3</option>
+      <option value="last">Most Recent</option>
+    </select>
+  </div>
+</header>
+
+
+  <main class="dashboard-layout">
+    <section class="main-panel">
+      <h2>Biomarker Trends</h2>
+      <div id="chartContainer" class="chart-box"></div>
+    </section>
+
+    <aside class="side-panel">
+      <h3>Biomarker Highlights</h3>
+      <div id="biomarkerCards" class="card-grid"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <h3>AI-Powered Clinical Insights</h3>
+    <div id="clinicalSummary">Loading recommendations...</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
